@@ -11,3 +11,10 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+
+routesGenerator := InjectedRoutesGenerator
+
+enablePlugins(DebianPlugin)
+maintainer := .Your Name "Vygis <vygis@example.com>"
+packageSummary := "My custom package"
+packageDescription := "Package"
